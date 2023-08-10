@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="resultado" readonly>
+        <input type="button" value="1" class="gray" onclick="AgregarNumero('1')">
+        <input type="button" value="2" class="gray" onclick="AgregarNumero('2')">
+        <input type="button" value="3" class="gray" onclick="AgregarNumero('3')">
+        <input type="button" value="+" class="orange" onclick="AgregarNumero('+')">
+        <input type="button" value="4" class="gray" onclick="AgregarNumero('4')">
+        <input type="button" value="5" class="gray" onclick="AgregarNumero('5')">
+        <input type="button" value="6" class="gray" onclick="AgregarNumero('6')">
+        <input type="button" value="-" class="orange" onclick="AgregarNumero('-')">
+        <input type="button" value="7" class="gray" onclick="AgregarNumero('7')">
+        <input type="button" value="8" class="gray" onclick="AgregarNumero('8')">
+        <input type="button" value="9" class="gray" onclick="AgregarNumero('9')">
+        <input type="button" value="^" class="orange" onclick="AgregarNumero('**')">
+        <input type="button" value="C" class="orange" onclick="Limpiar()">
+        <input type="button" value="0" class="gray" onclick="AgregarNumero('0')">
+        <input type="button" value="=" class="orange" onclick="Calcular()">
+        <input type="button" value="*" class="orange" onclick="AgregarNumero('*')">
+        <input type="button" value="/" class="orange" onclick="AgregarNumero('/')">
+        <input type="button" value="√" class="orange" onclick="Raiz()">
+    </div>
+
+    <script src="Calculadora.js"></script>
+</body>
+</html>
