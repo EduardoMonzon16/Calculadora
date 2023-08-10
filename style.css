@@ -7,13 +7,13 @@
 
 body {
     min-height: 100vh;
-    background-color: #090c31;
+    background-color: #121212;
     display: grid;
     place-items: center;
 }
 
 .calculadora {
-    background-color: #15173c;
+    background-color: #1c1c1d;
     color: white;
     width: 350px;
     max-width: 100%;
@@ -57,7 +57,7 @@ body {
 
 #resultado {
     grid-column: 1 / -1;
-    background-color: #090c31;
+    background-color: #1c1c1d;
     color: white;
     padding: 1.5rem;
     font-size: 2rem;
