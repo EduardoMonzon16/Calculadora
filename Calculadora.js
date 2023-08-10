@@ -1,5 +1,10 @@
-function AgregarNumero(value) {
-    document.getElementById('resultado').value += value;
+function Agregar(caracter) {
+    var entrada = document.getElementById('resultado');
+      if (caracter === '.' && entrada.value.slice(-1) === '.') {
+        return; 
+      }
+      entrada.value += caracter;
+
 }
 
 function Limpiar() {
@@ -25,3 +30,9 @@ function Raiz() {
         document.getElementById('resultado').value = 'Error';
     }
 }
+
+function Porcentaje(value) {
+    document.getElementById('resultado').value += value.replace(/%/g, "*0.01"); 
+  }
+
+

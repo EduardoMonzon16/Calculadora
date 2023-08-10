@@ -9,24 +9,26 @@
 <body>
     <div class="calculadora">
         <input type="text" id="resultado" readonly>
-        <input type="button" value="1" class="gray" onclick="AgregarNumero('1')">
-        <input type="button" value="2" class="gray" onclick="AgregarNumero('2')">
-        <input type="button" value="3" class="gray" onclick="AgregarNumero('3')">
-        <input type="button" value="+" class="orange" onclick="AgregarNumero('+')">
-        <input type="button" value="4" class="gray" onclick="AgregarNumero('4')">
-        <input type="button" value="5" class="gray" onclick="AgregarNumero('5')">
-        <input type="button" value="6" class="gray" onclick="AgregarNumero('6')">
-        <input type="button" value="-" class="orange" onclick="AgregarNumero('-')">
-        <input type="button" value="7" class="gray" onclick="AgregarNumero('7')">
-        <input type="button" value="8" class="gray" onclick="AgregarNumero('8')">
-        <input type="button" value="9" class="gray" onclick="AgregarNumero('9')">
-        <input type="button" value="^" class="orange" onclick="AgregarNumero('**')">
+        <input type="button" value="1" class="gray" onclick="Agregar('1')">
+        <input type="button" value="2" class="gray" onclick="Agregar('2')">
+        <input type="button" value="3" class="gray" onclick="Agregar('3')">
+        <input type="button" value="+" class="orange" onclick="Agregar('+')">
+        <input type="button" value="4" class="gray" onclick="Agregar('4')">
+        <input type="button" value="5" class="gray" onclick="Agregar('5')">
+        <input type="button" value="6" class="gray" onclick="Agregar('6')">
+        <input type="button" value="-" class="orange" onclick="Agregar('-')">
+        <input type="button" value="7" class="gray" onclick="Agregar('7')">
+        <input type="button" value="8" class="gray" onclick="Agregar('8')">
+        <input type="button" value="9" class="gray" onclick="Agregar('9')">
+        <input type="button" value="^" class="orange" onclick="Agregar('**')">
         <input type="button" value="C" class="orange" onclick="Limpiar()">
-        <input type="button" value="0" class="gray" onclick="AgregarNumero('0')">
+        <input type="button" value="0" class="gray" onclick="Agregar('0')">
         <input type="button" value="=" class="orange" onclick="Calcular()">
-        <input type="button" value="*" class="orange" onclick="AgregarNumero('*')">
-        <input type="button" value="/" class="orange" onclick="AgregarNumero('/')">
+        <input type="button" value="*" class="orange" onclick="Agregar('*')">
+        <input type="button" value="/" class="orange" onclick="Agregar('/')">
         <input type="button" value="√" class="orange" onclick="Raiz()">
+        <input type="button" value="%" class="orange" onclick="Porcentaje('%')">
+        <input type="button" value="." class="orange" onclick="Agregar('.')">
     </div>
 
     <script src="Calculadora.js"></script>
